@@ -12,6 +12,7 @@ public class VariablesExample {
     }
 }
 
+<<<<<<< Updated upstream
 //remote commit
 
 public class ConditionalExample {
@@ -22,6 +23,14 @@ public class ConditionalExample {
             System.out.println("Passing grade.");
         } else {
             System.out.println("Failing grade.");
+=======
+local commit//
+
+public class LoopExample {
+    public static void main(String[] args) {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Iteration: " + i);
+>>>>>>> Stashed changes
         }
     }
 }
