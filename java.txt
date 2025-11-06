@@ -11,3 +11,17 @@ public class VariablesExample {
         System.out.println("Active: " + isActive);
     }
 }
+
+//remote commit
+
+public class ConditionalExample {
+    public static void main(String[] args) {
+        int score = 75;
+
+        if (score >= 60) {
+            System.out.println("Passing grade.");
+        } else {
+            System.out.println("Failing grade.");
+        }
+    }
+}
